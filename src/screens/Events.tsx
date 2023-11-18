@@ -1,14 +1,13 @@
 import React from 'react';
-import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 import events from '../data/eventos.json';
-import HTMLView from 'react-native-htmlview';
 import Card from '../components/Card';
 
 const Events = () => {
 
   return (
-    <View>
-      <Text>Eventos en tu área:</Text>
+    <SafeAreaView style={styles.container}>
+    <Text style={styles.title}>Eventos en tu área:</Text>
       <FlatList
         data={events}
         keyExtractor={(item) => item.id.toString()}
@@ -16,11 +15,20 @@ const Events = () => {
          <Card event={item}></Card>
         )}
       />
-    </View>
+    </SafeAreaView>
   );
 };
 
 export default Events;
 
 const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'column',
+  },
+  title: {
+    fontSize: 25,
+    color: 'orange',
+    fontWeight: "600",
+    padding: 10
+  }
 })

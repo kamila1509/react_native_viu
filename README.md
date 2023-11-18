@@ -1,3 +1,9 @@
+- npm i metro-config --save-dev
+npm install @react-navigation/drawer
+npm install react-native-gesture-handler react-native-reanimated
+npm start -- --reset-cache
+https://www.youtube.com/watch?v=50UcAvQJRvE&list=PL0eIltGGyeq-3CqKyMCOpDUFeyr-eax2j&index=31
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
