@@ -1,338 +1,338 @@
 [
     {
         "id": 1,
-        "title": "Evento 1",
+        "title": "Festival de Arte",
         "date": "2023-11-15",
-        "location": "Ciudad A",
+        "location": "Galería Moderna",
         "image": "https://picsum.photos/id/1/200/300",
-        "description": "Descripción del Evento 1"
+        "description": "Explora una variedad de obras de arte contemporáneo en nuestro emocionante Festival de Arte en la Galería Moderna. ¡Una experiencia única llena de creatividad te espera!"
     },
     {
         "id": 2,
-        "title": "Evento 2",
-        "date": "2023-11-15",
-        "location": "Ciudad B",
+        "title": "Conferencia Innovadora",
+        "date": "2023-11-16",
+        "location": "Centro de Convenciones",
         "image": "https://picsum.photos/id/2/200/300",
-        "description": "Descripción del Evento 2"
+        "description": "Únete a expertos de la industria en nuestra Conferencia Innovadora. Descubre las últimas tendencias y tecnologías que están transformando el mundo actual. ¡Una oportunidad única para aprender y conectarte!"
     },
     {
         "id": 3,
-        "title": "Evento 3",
-        "date": "2023-11-15",
-        "location": "Ciudad C",
+        "title": "Exposición de Ciencia",
+        "date": "2023-11-17",
+        "location": "Museo de Ciencias",
         "image": "https://picsum.photos/id/3/200/300",
-        "description": "Descripción del Evento 3"
+        "description": "Sumérgete en el fascinante mundo de la ciencia en nuestra Exposición de Ciencia en el Museo de Ciencias. Descubre experimentos interactivos, exhibiciones emocionantes y aprendizaje para todas las edades. ¡No te lo pierdas!"
     },
     {
         "id": 4,
-        "title": "Evento 4",
-        "date": "2023-11-15",
-        "location": "Ciudad D",
+        "title": "Feria Gastronómica",
+        "date": "2023-11-18",
+        "location": "Plaza del Sabor",
         "image": "https://picsum.photos/id/4/200/300",
-        "description": "Descripción del Evento 4"
+        "description": "Deléitate con una variedad de sabores en nuestra Feria Gastronómica en la Plaza del Sabor. Experimenta la cocina de chefs renombrados y descubre nuevos platos deliciosos. ¡Una experiencia culinaria que no querrás perderte!"
     },
     {
         "id": 5,
-        "title": "Evento 5",
-        "date": "2023-11-15",
-        "location": "Ciudad E",
+        "title": "Recorrido Histórico",
+        "date": "2023-11-19",
+        "location": "Casco Antiguo",
         "image": "https://picsum.photos/id/5/200/300",
-        "description": "Descripción del Evento 5"
+        "description": "Embárcate en un recorrido histórico por el encantador Casco Antiguo. Descubre la rica historia y arquitectura de la zona con guías expertos. ¡Una oportunidad única para sumergirse en el pasado!"
     },
     {
         "id": 6,
-        "title": "Evento 6",
-        "date": "2023-11-15",
-        "location": "Ciudad F",
+        "title": "Carrera Benéfica",
+        "date": "2023-11-20",
+        "location": "Parque Natural",
         "image": "https://picsum.photos/id/6/200/300",
-        "description": "Descripción del Evento 6"
+        "description": "Participa en nuestra Carrera Benéfica en el pintoresco Parque Natural. Corre por una causa noble y disfruta de la naturaleza mientras apoyas a organizaciones benéficas locales. ¡Únete a la comunidad y haz la diferencia!"
     },
     {
         "id": 7,
-        "title": "Evento 7",
-        "date": "2023-11-15",
-        "location": "Ciudad G",
+        "title": "Festival de Cine",
+        "date": "2023-11-21",
+        "location": "Cineplex",
         "image": "https://picsum.photos/id/7/200/300",
-        "description": "Descripción del Evento 7"
+        "description": "Sumérgete en el mundo del cine en nuestro emocionante Festival de Cine en el Cineplex. Disfruta de proyecciones exclusivas, encuentros con cineastas y una experiencia cinematográfica inolvidable. ¡No te pierdas este evento para los amantes del cine!"
     },
     {
         "id": 8,
-        "title": "Evento 8",
-        "date": "2023-11-15",
-        "location": "Ciudad H",
+        "title": "Concierto Acústico",
+        "date": "2023-11-22",
+        "location": "Teatro Íntimo",
         "image": "https://picsum.photos/id/8/200/300",
-        "description": "Descripción del Evento 8"
+        "description": "Vive la magia de la música en nuestro Concierto Acústico en el acogedor Teatro Íntimo. Experimenta actuaciones íntimas de artistas destacados en un ambiente único. ¡Una noche musical para recordar!"
     },
     {
         "id": 9,
-        "title": "Evento 9",
-        "date": "2023-11-15",
-        "location": "Ciudad I",
+        "title": "Festival de Moda",
+        "date": "2023-11-23",
+        "location": "Pasarela Elegante",
         "image": "https://picsum.photos/id/9/200/300",
-        "description": "Descripción del Evento 9"
+        "description": "Descubre las últimas tendencias en nuestro glamoroso Festival de Moda en la Pasarela Elegante. Diseñadores de renombre presentarán sus colecciones más recientes. ¡Únete a nosotros para una experiencia de moda inigualable!"
     },
     {
         "id": 10,
-        "title": "Evento 10",
-        "date": "2023-11-15",
-        "location": "Ciudad J",
+        "title": "Torneo de Ajedrez",
+        "date": "2023-11-24",
+        "location": "Club de Ajedrez",
         "image": "https://picsum.photos/id/10/200/300",
-        "description": "Descripción del Evento 10"
+        "description": "Participa en nuestro emocionante Torneo de Ajedrez en el Club de Ajedrez local. Demuestra tus habilidades estratégicas y compite con jugadores apasionados. ¡Una oportunidad para los amantes del ajedrez de todas las edades!"
     },
     {
         "id": 11,
-        "title": "Evento 11",
-        "date": "2023-11-15",
-        "location": "Ciudad K",
+        "title": "Exhibición de Autos Clásicos",
+        "date": "2023-11-25",
+        "location": "Paseo de la Nostalgia",
         "image": "https://picsum.photos/id/11/200/300",
-        "description": "Descripción del Evento 11"
+        "description": "Maravíllate con la elegancia de los autos clásicos en nuestra Exhibición en el Paseo de la Nostalgia. Desde autos vintage hasta joyas de la ingeniería automotriz, este evento es un paraíso para los amantes de los autos clásicos. ¡No te pierdas esta exhibición única en su tipo!"
     },
     {
         "id": 12,
-        "title": "Evento 12",
-        "date": "2023-11-15",
-        "location": "Ciudad L",
+        "title": "Festival de Comida Internacional",
+        "date": "2023-11-26",
+        "location": "Plaza Gastronómica",
         "image": "https://picsum.photos/id/12/200/300",
-        "description": "Descripción del Evento 12"
+        "description": "Embárcate en un viaje culinario alrededor del mundo en nuestro Festival de Comida Internacional en la Plaza Gastronómica. Prueba delicias de diferentes culturas y disfruta de una experiencia gastronómica única. ¡Una fiesta para los amantes de la buena comida!"
     },
     {
         "id": 13,
-        "title": "Evento 13",
-        "date": "2023-11-15",
-        "location": "Ciudad M",
+        "title": "Maratón Fotográfica",
+        "date": "2023-11-27",
+        "location": "Paisajes Fotogénicos",
         "image": "https://picsum.photos/id/13/200/300",
-        "description": "Descripción del Evento 13"
+        "description": "Captura momentos inolvidables en nuestra Maratón Fotográfica en los pintorescos Paisajes Fotogénicos. Únete a fotógrafos aficionados y profesionales para capturar la belleza de la naturaleza y la vida cotidiana. ¡Una oportunidad para expresar tu creatividad a través de la lente!"
     },
     {
         "id": 14,
-        "title": "Evento 14",
-        "date": "2023-11-15",
-        "location": "Ciudad N",
+        "title": "Festival de Teatro",
+        "date": "2023-11-28",
+        "location": "Teatro Municipal",
         "image": "https://picsum.photos/id/14/200/300",
-        "description": "Descripción del Evento 14"
+        "description": "Sumérgete en el mundo del teatro en nuestro Festival de Teatro en el majestuoso Teatro Municipal. Disfruta de actuaciones emocionantes, desde clásicos hasta producciones contemporáneas. ¡Una celebración de las artes escénicas que no querrás perderte!"
     },
     {
         "id": 15,
-        "title": "Evento 15",
-        "date": "2023-11-15",
-        "location": "Ciudad O",
+        "title": "Taller de Escultura",
+        "date": "2023-11-29",
+        "location": "Estudio de Escultura",
         "image": "https://picsum.photos/id/15/200/300",
-        "description": "Descripción del Evento 15"
+        "description": "Explora tu lado artístico en nuestro Taller de Escultura en el Estudio de Escultura local. Aprende técnicas de escultura y crea tu propia obra maestra. ¡Una experiencia única para aquellos que buscan expresarse a través del arte tridimensional!"
     },
     {
         "id": 16,
-        "title": "Evento 16",
-        "date": "2023-11-15",
-        "location": "Ciudad P",
+        "title": "Concierto de Rock",
+        "date": "2023-11-30",
+        "location": "Anfiteatro Roquero",
         "image": "https://picsum.photos/id/16/200/300",
-        "description": "Descripción del Evento 16"
+        "description": "Vibra con la energía del rock en nuestro Concierto de Rock en el Anfiteatro Roquero. Las mejores bandas te llevarán en un viaje musical lleno de ritmo y emoción. ¡Prepárate para una noche inolvidable de pura adrenalina musical!"
     },
     {
         "id": 17,
-        "title": "Evento 17",
-        "date": "2023-11-15",
-        "location": "Ciudad Q",
+        "title": "Festival de Baile Latino",
+        "date": "2023-12-01",
+        "location": "Salón de Baile Caliente",
         "image": "https://picsum.photos/id/17/200/300",
-        "description": "Descripción del Evento 17"
+        "description": "Siente el ritmo latino en nuestro apasionante Festival de Baile en el Salón de Baile Caliente. Desde salsa hasta merengue, disfruta de una noche llena de música y baile. ¡Únete a la fiesta y muestra tus mejores movimientos!"
     },
     {
         "id": 18,
-        "title": "Evento 18",
-        "date": "2023-11-15",
-        "location": "Ciudad R",
+        "title": "Festival de Astronomía",
+        "date": "2023-12-02",
+        "location": "Observatorio Estelar",
         "image": "https://picsum.photos/id/18/200/300",
-        "description": "Descripción del Evento 18"
+        "description": "Explora las maravillas del universo en nuestro Festival de Astronomía en el Observatorio Estelar. Observa las estrellas, aprende sobre planetas lejanos y maravíllate con la inmensidad del cosmos. ¡Una experiencia astronómica única para todos los entusiastas del espacio!"
     },
     {
         "id": 19,
-        "title": "Evento 19",
-        "date": "2023-11-15",
-        "location": "Ciudad S",
+        "title": "Feria del Libro",
+        "date": "2023-12-03",
+        "location": "Plaza Literaria",
         "image": "https://picsum.photos/id/19/200/300",
-        "description": "Descripción del Evento 19"
+        "description": "Sumérgete en el mundo de la literatura en nuestra Feria del Libro en la Plaza Literaria. Descubre las últimas obras de autores destacados, participa en charlas literarias y encuentra tu próxima lectura favorita. ¡Una celebración de la palabra escrita que no querrás perderte!"
     },
     {
         "id": 20,
-        "title": "Evento 20",
-        "date": "2023-11-15",
-        "location": "Ciudad T",
+        "title": "Torneo de Golf",
+        "date": "2023-12-04",
+        "location": "Campo de Golf Sereno",
         "image": "https://picsum.photos/id/20/200/300",
-        "description": "Descripción del Evento 20"
+        "description": "Disfruta de una jornada deportiva en nuestro Torneo de Golf en el pintoresco Campo de Golf Sereno. Demuestra tus habilidades en el green y compite con golfistas apasionados. ¡Una oportunidad para disfrutar del aire fresco y la emoción del golf!"
     },
     {
         "id": 21,
-        "title": "Evento 21",
-        "date": "2023-11-15",
-        "location": "Ciudad U",
+        "title": "Festival de Danza Contemporánea",
+        "date": "2023-12-05",
+        "location": "Escenario Vanguarde",
         "image": "https://picsum.photos/id/21/200/300",
-        "description": "Descripción del Evento 21"
+        "description": "Sumérgete en la expresión artística en nuestro Festival de Danza Contemporánea en el Escenario Vanguarde. Disfruta de actuaciones innovadoras que fusionan la danza con la creatividad contemporánea"
     },
     {
         "id": 22,
-        "title": "Evento 22",
+        "title": "Festival de Arte",
         "date": "2023-11-15",
-        "location": "Ciudad V",
-        "image": "https://picsum.photos/id/22/200/300",
-        "description": "Descripción del Evento 22"
+        "location": "Galería Moderna",
+        "image": "https://picsum.photos/id/1/200/300",
+        "description": "Explora una variedad de obras de arte contemporáneo en nuestro emocionante Festival de Arte en la Galería Moderna. ¡Una experiencia única llena de creatividad te espera!"
     },
     {
         "id": 23,
-        "title": "Evento 23",
-        "date": "2023-11-15",
-        "location": "Ciudad W",
-        "image": "https://picsum.photos/id/23/200/300",
-        "description": "Descripción del Evento 23"
+        "title": "Conferencia Innovadora",
+        "date": "2023-11-16",
+        "location": "Centro de Convenciones",
+        "image": "https://picsum.photos/id/2/200/300",
+        "description": "Únete a expertos de la industria en nuestra Conferencia Innovadora. Descubre las últimas tendencias y tecnologías que están transformando el mundo actual. ¡Una oportunidad única para aprender y conectarte!"
     },
     {
         "id": 24,
-        "title": "Evento 24",
-        "date": "2023-11-15",
-        "location": "Ciudad X",
-        "image": "https://picsum.photos/id/24/200/300",
-        "description": "Descripción del Evento 24"
+        "title": "Exposición de Ciencia",
+        "date": "2023-11-17",
+        "location": "Museo de Ciencias",
+        "image": "https://picsum.photos/id/3/200/300",
+        "description": "Sumérgete en el fascinante mundo de la ciencia en nuestra Exposición de Ciencia en el Museo de Ciencias. Descubre experimentos interactivos, exhibiciones emocionantes y aprendizaje para todas las edades. ¡No te lo pierdas!"
     },
     {
         "id": 25,
-        "title": "Evento 25",
-        "date": "2023-11-15",
-        "location": "Ciudad Y",
-        "image": "https://picsum.photos/id/25/200/300",
-        "description": "Descripción del Evento 25"
+        "title": "Feria Gastronómica",
+        "date": "2023-11-18",
+        "location": "Plaza del Sabor",
+        "image": "https://picsum.photos/id/4/200/300",
+        "description": "Deléitate con una variedad de sabores en nuestra Feria Gastronómica en la Plaza del Sabor. Experimenta la cocina de chefs renombrados y descubre nuevos platos deliciosos. ¡Una experiencia culinaria que no querrás perderte!"
     },
     {
         "id": 26,
-        "title": "Evento 26",
-        "date": "2023-11-15",
-        "location": "Ciudad Z",
-        "image": "https://picsum.photos/id/26/200/300",
-        "description": "Descripción del Evento 26"
+        "title": "Recorrido Histórico",
+        "date": "2023-11-19",
+        "location": "Casco Antiguo",
+        "image": "https://picsum.photos/id/5/200/300",
+        "description": "Embárcate en un recorrido histórico por el encantador Casco Antiguo. Descubre la rica historia y arquitectura de la zona con guías expertos. ¡Una oportunidad única para sumergirse en el pasado!"
     },
     {
         "id": 27,
-        "title": "Evento 27",
-        "date": "2023-11-15",
-        "location": "Ciudad A",
-        "image": "https://picsum.photos/id/27/200/300",
-        "description": "Descripción del Evento 27"
+        "title": "Carrera Benéfica",
+        "date": "2023-11-20",
+        "location": "Parque Natural",
+        "image": "https://picsum.photos/id/6/200/300",
+        "description": "Participa en nuestra Carrera Benéfica en el pintoresco Parque Natural. Corre por una causa noble y disfruta de la naturaleza mientras apoyas a organizaciones benéficas locales. ¡Únete a la comunidad y haz la diferencia!"
     },
     {
         "id": 28,
-        "title": "Evento 28",
-        "date": "2023-11-15",
-        "location": "Ciudad B",
-        "image": "https://picsum.photos/id/28/200/300",
-        "description": "Descripción del Evento 28"
+        "title": "Festival de Cine",
+        "date": "2023-11-21",
+        "location": "Cineplex",
+        "image": "https://picsum.photos/id/7/200/300",
+        "description": "Sumérgete en el mundo del cine en nuestro emocionante Festival de Cine en el Cineplex. Disfruta de proyecciones exclusivas, encuentros con cineastas y una experiencia cinematográfica inolvidable. ¡No te pierdas este evento para los amantes del cine!"
     },
     {
         "id": 29,
-        "title": "Evento 29",
-        "date": "2023-11-15",
-        "location": "Ciudad C",
-        "image": "https://picsum.photos/id/29/200/300",
-        "description": "Descripción del Evento 29"
+        "title": "Concierto Acústico",
+        "date": "2023-11-22",
+        "location": "Teatro Íntimo",
+        "image": "https://picsum.photos/id/8/200/300",
+        "description": "Vive la magia de la música en nuestro Concierto Acústico en el acogedor Teatro Íntimo. Experimenta actuaciones íntimas de artistas destacados en un ambiente único. ¡Una noche musical para recordar!"
     },
     {
         "id": 30,
-        "title": "Evento 30",
-        "date": "2023-11-15",
-        "location": "Ciudad D",
-        "image": "https://picsum.photos/id/30/200/300",
-        "description": "Descripción del Evento 30"
+        "title": "Festival de Moda",
+        "date": "2023-11-23",
+        "location": "Pasarela Elegante",
+        "image": "https://picsum.photos/id/9/200/300",
+        "description": "Descubre las últimas tendencias en nuestro glamoroso Festival de Moda en la Pasarela Elegante. Diseñadores de renombre presentarán sus colecciones más recientes. ¡Únete a nosotros para una experiencia de moda inigualable!"
     },
     {
         "id": 31,
-        "title": "Evento 31",
-        "date": "2023-11-15",
-        "location": "Ciudad E",
-        "image": "https://picsum.photos/id/31/200/300",
-        "description": "Descripción del Evento 31"
+        "title": "Torneo de Ajedrez",
+        "date": "2023-11-24",
+        "location": "Club de Ajedrez",
+        "image": "https://picsum.photos/id/10/200/300",
+        "description": "Participa en nuestro emocionante Torneo de Ajedrez en el Club de Ajedrez local. Demuestra tus habilidades estratégicas y compite con jugadores apasionados. ¡Una oportunidad para los amantes del ajedrez de todas las edades!"
     },
     {
         "id": 32,
-        "title": "Evento 32",
-        "date": "2023-11-15",
-        "location": "Ciudad F",
-        "image": "https://picsum.photos/id/32/200/300",
-        "description": "Descripción del Evento 32"
+        "title": "Exhibición de Autos Clásicos",
+        "date": "2023-11-25",
+        "location": "Paseo de la Nostalgia",
+        "image": "https://picsum.photos/id/11/200/300",
+        "description": "Maravíllate con la elegancia de los autos clásicos en nuestra Exhibición en el Paseo de la Nostalgia. Desde autos vintage hasta joyas de la ingeniería automotriz, este evento es un paraíso para los amantes de los autos clásicos. ¡No te pierdas esta exhibición única en su tipo!"
     },
     {
         "id": 33,
-        "title": "Evento 33",
-        "date": "2023-11-15",
-        "location": "Ciudad G",
-        "image": "https://picsum.photos/id/33/200/300",
-        "description": "Descripción del Evento 33"
+        "title": "Festival de Comida Internacional",
+        "date": "2023-11-26",
+        "location": "Plaza Gastronómica",
+        "image": "https://picsum.photos/id/12/200/300",
+        "description": "Embárcate en un viaje culinario alrededor del mundo en nuestro Festival de Comida Internacional en la Plaza Gastronómica. Prueba delicias de diferentes culturas y disfruta de una experiencia gastronómica única. ¡Una fiesta para los amantes de la buena comida!"
     },
     {
         "id": 34,
-        "title": "Evento 34",
-        "date": "2023-11-15",
-        "location": "Ciudad H",
-        "image": "https://picsum.photos/id/34/200/300",
-        "description": "Descripción del Evento 34"
+        "title": "Maratón Fotográfica",
+        "date": "2023-11-27",
+        "location": "Paisajes Fotogénicos",
+        "image": "https://picsum.photos/id/13/200/300",
+        "description": "Captura momentos inolvidables en nuestra Maratón Fotográfica en los pintorescos Paisajes Fotogénicos. Únete a fotógrafos aficionados y profesionales para capturar la belleza de la naturaleza y la vida cotidiana. ¡Una oportunidad para expresar tu creatividad a través de la lente!"
     },
     {
         "id": 35,
-        "title": "Evento 35",
-        "date": "2023-11-15",
-        "location": "Ciudad I",
-        "image": "https://picsum.photos/id/35/200/300",
-        "description": "Descripción del Evento 35"
+        "title": "Festival de Teatro",
+        "date": "2023-11-28",
+        "location": "Teatro Municipal",
+        "image": "https://picsum.photos/id/14/200/300",
+        "description": "Sumérgete en el mundo del teatro en nuestro Festival de Teatro en el majestuoso Teatro Municipal. Disfruta de actuaciones emocionantes, desde clásicos hasta producciones contemporáneas. ¡Una celebración de las artes escénicas que no querrás perderte!"
     },
     {
         "id": 36,
-        "title": "Evento 36",
-        "date": "2023-11-15",
-        "location": "Ciudad J",
-        "image": "https://picsum.photos/id/36/200/300",
-        "description": "Descripción del Evento 36"
+        "title": "Taller de Escultura",
+        "date": "2023-11-29",
+        "location": "Estudio de Escultura",
+        "image": "https://picsum.photos/id/15/200/300",
+        "description": "Explora tu lado artístico en nuestro Taller de Escultura en el Estudio de Escultura local. Aprende técnicas de escultura y crea tu propia obra maestra. ¡Una experiencia única para aquellos que buscan expresarse a través del arte tridimensional!"
     },
     {
         "id": 37,
-        "title": "Evento 37",
-        "date": "2023-11-15",
-        "location": "Ciudad K",
-        "image": "https://picsum.photos/id/37/200/300",
-        "description": "Descripción del Evento 37"
+        "title": "Concierto de Rock",
+        "date": "2023-11-30",
+        "location": "Anfiteatro Roquero",
+        "image": "https://picsum.photos/id/16/200/300",
+        "description": "Vibra con la energía del rock en nuestro Concierto de Rock en el Anfiteatro Roquero. Las mejores bandas te llevarán en un viaje musical lleno de ritmo y emoción. ¡Prepárate para una noche inolvidable de pura adrenalina musical!"
     },
     {
         "id": 38,
-        "title": "Evento 38",
-        "date": "2023-11-15",
-        "location": "Ciudad L",
-        "image": "https://picsum.photos/id/38/200/300",
-        "description": "Descripción del Evento 38"
+        "title": "Festival de Baile Latino",
+        "date": "2023-12-01",
+        "location": "Salón de Baile Caliente",
+        "image": "https://picsum.photos/id/17/200/300",
+        "description": "Siente el ritmo latino en nuestro apasionante Festival de Baile en el Salón de Baile Caliente. Desde salsa hasta merengue, disfruta de una noche llena de música y baile. ¡Únete a la fiesta y muestra tus mejores movimientos!"
     },
     {
         "id": 39,
-        "title": "Evento 39",
-        "date": "2023-11-15",
-        "location": "Ciudad M",
-        "image": "https://picsum.photos/id/39/200/300",
-        "description": "Descripción del Evento 39"
+        "title": "Festival de Astronomía",
+        "date": "2023-12-02",
+        "location": "Observatorio Estelar",
+        "image": "https://picsum.photos/id/18/200/300",
+        "description": "Explora las maravillas del universo en nuestro Festival de Astronomía en el Observatorio Estelar. Observa las estrellas, aprende sobre planetas lejanos y maravíllate con la inmensidad del cosmos. ¡Una experiencia astronómica única para todos los entusiastas del espacio!"
     },
     {
         "id": 40,
-        "title": "Evento 40",
-        "date": "2023-11-15",
-        "location": "Ciudad N",
-        "image": "https://picsum.photos/id/40/200/300",
-        "description": "Descripción del Evento 40"
+        "title": "Feria del Libro",
+        "date": "2023-12-03",
+        "location": "Plaza Literaria",
+        "image": "https://picsum.photos/id/19/200/300",
+        "description": "Sumérgete en el mundo de la literatura en nuestra Feria del Libro en la Plaza Literaria. Descubre las últimas obras de autores destacados, participa en charlas literarias y encuentra tu próxima lectura favorita. ¡Una celebración de la palabra escrita que no querrás perderte!"
     },
     {
         "id": 41,
-        "title": "Evento 41",
-        "date": "2023-11-15",
-        "location": "Ciudad O",
-        "image": "https://picsum.photos/id/41/200/300",
-        "description": "Descripción del Evento 41"
+        "title": "Torneo de Golf",
+        "date": "2023-12-04",
+        "location": "Campo de Golf Sereno",
+        "image": "https://picsum.photos/id/20/200/300",
+        "description": "Disfruta de una jornada deportiva en nuestro Torneo de Golf en el pintoresco Campo de Golf Sereno. Demuestra tus habilidades en el green y compite con golfistas apasionados. ¡Una oportunidad para disfrutar del aire fresco y la emoción del golf!"
     },
     {
         "id": 42,
-        "title": "Evento 42",
-        "date": "2023-11-15",
-        "location": "Ciudad P",
-        "image": "https://picsum.photos/id/42/200/300",
-        "description": "Descripción del Evento 42"
+        "title": "Festival de Danza Contemporánea",
+        "date": "2023-12-05",
+        "location": "Escenario Vanguarde",
+        "image": "https://picsum.photos/id/21/200/300",
+        "description": "Sumérgete en la expresión artística en nuestro Festival de Danza Contemporánea en el Escenario Vanguarde. Disfruta de actuaciones innovadoras que fusionan la danza con la creatividad contemporánea"
     }
 ]
