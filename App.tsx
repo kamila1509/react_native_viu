@@ -15,10 +15,8 @@ function App(): JSX.Element {
 
   return (
     <PaperProvider>
-
     <NavigationContainer>
       <Navigation>
-
       </Navigation>
     </NavigationContainer>
     </PaperProvider>

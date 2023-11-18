@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "title": "Festival de Arte",
+        "title": "Concierto en Vivo",
         "date": "2023-11-15",
-        "location": "Galería Moderna",
-        "image": "https://picsum.photos/id/1/200/300",
-        "description": "Explora una variedad de obras de arte contemporáneo en nuestro emocionante Festival de Arte en la Galería Moderna. ¡Una experiencia única llena de creatividad te espera!"
-    },
+        "location": "Teatro Metropolitano",
+        "image": "https://picsum.photos/id/2/200/300",
+        "description": "Únete a nosotros para una noche increíble llena de música en vivo y entretenimiento. ¡No te lo pierdas!"
+      },
     {
         "id": 2,
         "title": "Conferencia Innovadora",

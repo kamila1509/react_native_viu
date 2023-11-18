@@ -13,13 +13,13 @@ export default function DrawerContent(props:any){
     return(
         <DrawerContentScrollView>
             <Drawer.Section>
-                <Drawer.Item label="INICIO" active={active==="HomeStack"} onPress={()=>onChangeScreen('TabNavigation','HomeStack')}/>
+                <Drawer.Item label="Inicio" active={active==="HomeStack"} onPress={()=>onChangeScreen('TabNavigation','HomeStack')}/>
             </Drawer.Section>
             <Drawer.Section>
-                <Drawer.Item label="EVENTOS"  active={active==="ShowEventsStack"} onPress={()=>onChangeScreen('ShowEventsStack',"ShowEventsStack")}/>
+                <Drawer.Item label="Eventos"  active={active==="ShowEventsStack"} onPress={()=>onChangeScreen('ShowEventsStack',"ShowEventsStack")}/>
             </Drawer.Section>
             <Drawer.Section>
-                <Drawer.Item label="INFORMACIÓN"  active={active==="AboutStack"} onPress={()=>onChangeScreen('TabNavigation','AboutStack')}/>
+                <Drawer.Item label="Información"  active={active==="AboutStack"} onPress={()=>onChangeScreen('TabNavigation','AboutStack')}/>
             </Drawer.Section>
         </DrawerContentScrollView>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
 const Card = ({ event }) => {
-  const { title, date, location, image, description } = event;
+  const { title, date, location, image } = event;
 
   return (
     <View style={styles.card}>
@@ -10,7 +10,6 @@ const Card = ({ event }) => {
       <View style={styles.cardContent}>
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.dateLocation}>{`${date} - ${location}`}</Text>
-        <Text style={styles.description}>{description}</Text>
       </View>
     </View>
   );
@@ -37,7 +36,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#fff',
+    color: 'orange',
   },
   dateLocation: {
     marginTop: 5,
