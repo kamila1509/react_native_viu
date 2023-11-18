@@ -1,13 +1,10 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import events from '../data/eventos.json';
+import HTMLView from 'react-native-htmlview';
+import Card from '../components/Card';
 
 const Events = () => {
-  // Datos de ejemplo para eventos
-  const events = [
-    { id: 1, title: 'Evento 1', date: '2023-11-15', location: 'Ciudad A' },
-    { id: 2, title: 'Evento 2', date: '2023-11-20', location: 'Ciudad B' },
-    // Agrega más eventos aquí
-  ];
 
   return (
     <View>
@@ -16,11 +13,7 @@ const Events = () => {
         data={events}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
-          <View>
-            <Text>{item.title}</Text>
-            <Text>Fecha: {item.date}</Text>
-            <Text>Ubicación: {item.location}</Text>
-          </View>
+         <Card event={item}></Card>
         )}
       />
     </View>
@@ -28,3 +21,6 @@ const Events = () => {
 };
 
 export default Events;
+
+const styles = StyleSheet.create({
+})
