@@ -66,6 +66,7 @@ function ShowEvents(props:any): JSX.Element {
       <Stack.Navigator
       initialRouteName="Events"
       screenOptions={{
+        headerShown: false,
         headerStyle: {
           backgroundColor: '#f4511e',
         },
@@ -75,8 +76,7 @@ function ShowEvents(props:any): JSX.Element {
         },
       }}
       >
-        <Stack.Screen name="Events" component={Events} 
-        options={{ headerTitle: (props) => <TituloLogo titulo="Eventos" /> }}/>
+        <Stack.Screen name="Events" component={Events}/>
       </Stack.Navigator>
     
   );

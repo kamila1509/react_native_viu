@@ -9,13 +9,6 @@ export default function HomeStack(props:any){
 
     return(
         <Stack.Navigator screenOptions={{headerShown: false,
-            headerStyle: {
-              backgroundColor: '#f4511e',
-            },
-            headerTintColor: '#fff',
-            headerTitleStyle: {
-              fontWeight: 'bold',
-            },
           }}>
             <Stack.Screen name="Home" component={Home} options={{title:'Home '}}/>
             <Stack.Screen name="AboutStack" component={AboutStack} options={{title:'AboutStack 33'}}/>
