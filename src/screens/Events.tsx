@@ -1,18 +1,27 @@
 import React from 'react';
-import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
+import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet, SafeAreaView, Pressable } from 'react-native';
 import events from '../data/eventos.json';
 import Card from '../components/Card';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const Events = () => {
+const Stack = createNativeStackNavigator();
+
+const Events = ({ navigation }) => {
+  const eventDetails = (event) => {
+    navigation.navigate('EventDetails', { event });
+  };
 
   return (
     <SafeAreaView style={styles.container}>
-    <Text style={styles.title}>Eventos en tu área:</Text>
+      <Text style={styles.title}>Eventos en tu área:</Text>
       <FlatList
         data={events}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
-         <Card event={item}></Card>
+          <Pressable onPress={() => eventDetails(item)}>
+            <Card event={item}></Card>
+          </Pressable>
         )}
       />
     </SafeAreaView>
@@ -28,7 +37,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     color: 'orange',
-    fontWeight: "600",
-    padding: 10
-  }
-})
+    fontWeight: '600',
+    padding: 10,
+  },
+});

@@ -25,6 +25,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import TituloLogo from '../components/TituloLogo';
 import Events from '../screens/Events';
+import EventDetails from '../screens/EventDetails';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -77,6 +78,7 @@ function ShowEvents(props:any): JSX.Element {
       }}
       >
         <Stack.Screen name="Events" component={Events}/>
+        <Stack.Screen name="EventDetails" component={EventDetails}/>
       </Stack.Navigator>
     
   );
