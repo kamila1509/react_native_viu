@@ -19,7 +19,7 @@ export default function DrawerContent(props:any){
                 <Drawer.Item label="Eventos"  active={active==="ShowEventsStack"} onPress={()=>onChangeScreen('ShowEventsStack',"ShowEventsStack")}/>
             </Drawer.Section>
             <Drawer.Section>
-                <Drawer.Item label="Info"  active={active==="AboutStack"} onPress={()=>onChangeScreen('TabNavigation','AboutStack')}/>
+                <Drawer.Item label="Información"  active={active==="AboutStack"} onPress={()=>onChangeScreen('TabNavigation','AboutStack')}/>
             </Drawer.Section>
         </DrawerContentScrollView>
 
