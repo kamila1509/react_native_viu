@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity , Linking, Platform} from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity , Linking, Platform, Image} from 'react-native';
 import MapView,{ Marker } from 'react-native-maps';
 
 const MapPreview = ({ location }) => {
@@ -13,7 +13,7 @@ const MapPreview = ({ location }) => {
 
   return (
     <View style={styles.container}>
-    {Platform.OS === 'ios' && (
+    {Platform.OS === 'ios' ? (
        <MapView
        style={styles.map}
        initialRegion={{
@@ -25,6 +25,10 @@ const MapPreview = ({ location }) => {
      >
        <Marker coordinate={{ latitude, longitude }} />
      </MapView>
+    ): (
+      <Image
+    style={{width:'100%'}}
+      source={require('../../assets/maps.png')} />
     )}
       <TouchableOpacity style={styles.openMapButton} onPress={handleOpenMap}>
         <Text style={styles.buttonText}>Abrir en Google Maps</Text>
