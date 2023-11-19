@@ -57,7 +57,6 @@ function Section({children, title}: SectionProps): JSX.Element {
   );
 }
 
-//Genera un Navigator de tipo Stack
 
 const Stack = createNativeStackNavigator();
 function ShowEvents(props:any): JSX.Element {

@@ -1,7 +1,6 @@
 import React , {useState} from 'react';
 import {DrawerContentScrollView} from "@react-navigation/drawer"
 import {  Drawer } from 'react-native-paper';
-import { Screen } from 'react-native-screens';
 
 export default function DrawerContent(props:any){
     const {navigation}=props;

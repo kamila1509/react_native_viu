@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
-import {Image, StyleSheet} from 'react-native';
+import React from 'react';
+import { StyleSheet} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import HomeStack from './HomeStack';
 import AboutStack from './AboutStack';
-import ShowEventsStack from './ShowEventsStack';
 
 import {Icon, IconButton} from 'react-native-paper';
 // const Stack=createNativeStackNavigator();

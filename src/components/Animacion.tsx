@@ -1,4 +1,4 @@
-import React , {useState, useEffect, useRef} from 'react';
+import React , { useRef} from 'react';
 import { StyleSheet, Text, Button, Animated, View} from 'react-native';
 
 const Animacion = ()=>{

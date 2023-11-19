@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {createDrawerNavigator} from "@react-navigation/drawer";
 import DrawerContent from "./DrawerContent";
 import ShowEventsStack from "./ShowEventsStack";
