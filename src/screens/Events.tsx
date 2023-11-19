@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet, SafeAreaView, Pressable } from 'react-native';
+import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet, SafeAreaView, Pressable, ImageBackground } from 'react-native';
 import events from '../data/eventos.json';
 import Card from '../components/Card';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import background from '../../assets/fondo2.jpg';
 
 const Stack = createNativeStackNavigator();
 
@@ -14,6 +15,7 @@ const Events = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.container}>
+       <ImageBackground source={background} resizeMode="stretch" >
       <Text style={styles.title}>Eventos en tu área:</Text>
       <FlatList
         data={events}
@@ -24,6 +26,7 @@ const Events = ({ navigation }) => {
           </Pressable>
         )}
       />
+      </ImageBackground>
     </SafeAreaView>
   );
 };
@@ -37,6 +40,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     color: 'orange',
+    backgroundColor:'white',
     fontWeight: '600',
     padding: 10,
   },
