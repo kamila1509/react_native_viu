@@ -20,6 +20,7 @@ const ReservationForm = ({ modalVisible, setModalVisible }) => {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
   const [date, setDate] = useState(new Date());
+  const [selectedDate, setSelectedDate] = useState('');
   const [description, setDescription] = useState('');
   const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
 
@@ -41,6 +42,7 @@ const ReservationForm = ({ modalVisible, setModalVisible }) => {
     hideDatePicker();
     if (selectedDate) {
       setDate(selectedDate);
+      setSelectedDate(selectedDate.toDateString());
     }
   };
 
@@ -99,6 +101,7 @@ const ReservationForm = ({ modalVisible, setModalVisible }) => {
                   onConfirm={handleDateConfirm}
                   onCancel={hideDatePicker}
                 />
+                <Text style={styles.label}>{selectedDate}</Text>
               </View>
               <Text style={styles.label}>Descripción:</Text>
               <TextInput
