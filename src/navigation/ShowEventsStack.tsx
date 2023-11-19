@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
@@ -21,8 +19,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 //Nagigator Container
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import TituloLogo from '../components/TituloLogo';
 import Events from '../screens/Events';
 import EventDetails from '../screens/EventDetails';
@@ -57,13 +55,10 @@ function Section({children, title}: SectionProps): JSX.Element {
   );
 }
 
-
 const Stack = createNativeStackNavigator();
-function ShowEvents(props:any): JSX.Element {
-
+function ShowEvents(props: any): JSX.Element {
   return (
-    
-      <Stack.Navigator
+    <Stack.Navigator
       initialRouteName="Events"
       screenOptions={{
         headerShown: false,
@@ -74,12 +69,10 @@ function ShowEvents(props:any): JSX.Element {
         headerTitleStyle: {
           fontWeight: 'bold',
         },
-      }}
-      >
-        <Stack.Screen name="Events" component={Events}/>
-        <Stack.Screen name="EventDetails" component={EventDetails}/>
-      </Stack.Navigator>
-    
+      }}>
+      <Stack.Screen name="Events" component={Events} />
+      <Stack.Screen name="EventDetails" component={EventDetails} />
+    </Stack.Navigator>
   );
 }
 
