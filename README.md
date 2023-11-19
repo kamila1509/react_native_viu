@@ -1,9 +1,2 @@
 ![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/fondo.jpg?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/Home.png?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/Drawer.png?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/Eventos1.png?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/Eventos.png?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/Formulario0.png?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/Formulario.png?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/reserva.png.png?raw=true)
-![alt text](https://github.com/kamila1509/react_native_viu/blob/main/assets/info.jpg?raw=true)
+
