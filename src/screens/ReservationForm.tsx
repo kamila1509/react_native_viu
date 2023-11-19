@@ -75,24 +75,24 @@ const ReservationForm = ({ modalVisible, setModalVisible }) => {
           />
           <ScrollView contentContainerStyle={styles.scrollContainer}>
             <View>
-              <Text style={styles.label}>Name:</Text>
+              <Text style={styles.label}>Nombre:</Text>
               <TextInput
                 style={styles.input}
                 value={name}
                 onChangeText={(text) => setName(text)}
-                placeholder="Enter your name"
+                placeholder="Ingrese su nombre"
               />
-              <Text style={styles.label}>Age:</Text>
+              <Text style={styles.label}>Edad:</Text>
               <TextInput
                 style={styles.input}
                 value={age}
                 onChangeText={(text) => setAge(text)}
-                placeholder="Enter your age"
+                placeholder="Ingrese su edad"
                 keyboardType="numeric" // Set keyboardType to 'numeric' for numeric input
               />
-              <Text style={styles.label}>Date:</Text>
+              <Text style={styles.label}>Fecha:</Text>
               <View style={styles.datePickerContainer}>
-                <Button title="Select Date" onPress={showDatePicker} style={styles.dateButton} />
+                <Button title="Seleccione la fecha" onPress={showDatePicker} style={styles.dateButton} />
                 <DateTimePickerModal
                   isVisible={isDatePickerVisible}
                   mode="date"
@@ -100,17 +100,17 @@ const ReservationForm = ({ modalVisible, setModalVisible }) => {
                   onCancel={hideDatePicker}
                 />
               </View>
-              <Text style={styles.label}>Description:</Text>
+              <Text style={styles.label}>Descripción:</Text>
               <TextInput
                 style={[styles.input, styles.multilineInput]}
                 value={description}
                 onChangeText={(text) => setDescription(text)}
-                placeholder="Enter additional details"
+                placeholder="Ingrese detalles adicionales"
                 multiline
                 numberOfLines={4}
               />
               <TouchableOpacity onPress={handleReservation} style={styles.reservationButton}>
-                <Text style={styles.reservationButtonText}>Make Reservation</Text>
+                <Text style={styles.reservationButtonText}>Hacer Reservación</Text>
               </TouchableOpacity>
             </View>
           </ScrollView>
