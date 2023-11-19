@@ -5,13 +5,8 @@ import {
   Text,
   View,
   StyleSheet,
-  Button,
-  Pressable,
-  Modal,
-  TextInput,
   TouchableOpacity,
-  SafeAreaView,
-  ImageBackground,
+    ImageBackground,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 export default function Home(props: any) {
@@ -21,6 +16,7 @@ export default function Home(props: any) {
   const fBotonModal = () => {
     setModalVisible(!modalVisible);
   };
+  //Página Home Ppal
   return (
     <View style={styles.container}>
       <ImageBackground source={fondo} resizeMode="stretch" style={styles.image}>

@@ -15,7 +15,7 @@ import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import { IconButton } from 'react-native-paper';
 import { useNavigation } from '@react-navigation/native';
 import image from '../../assets/fondo3.jpg';
-
+//Formulario de reservas
 const ReservationForm = ({ modalVisible, setModalVisible }) => {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');

@@ -9,7 +9,7 @@ const ReservationFormDetails = ({route, navigation}) => {
     // Navigate to the home screen
     navigation.navigate('Home');
   };
-
+//Detalles de las reservas
   return (
     <View style={styles.mainContainer}>
       <View style={styles.container}>

@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
-import Home from "../screens/Home";
 import About from "../screens/About";
 
 const Stack=createNativeStackNavigator();
-
+//Página informativa de la actividad 2
 export default function AboutStack(){
     return(
         <Stack.Navigator screenOptions={{headerShown: false}}>

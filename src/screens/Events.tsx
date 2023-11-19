@@ -1,8 +1,7 @@
 import React from 'react';
-import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet, SafeAreaView, Pressable, ImageBackground } from 'react-native';
+import { Text, FlatList, StyleSheet, SafeAreaView, Pressable, ImageBackground } from 'react-native';
 import events from '../data/eventos.json';
 import Card from '../components/Card';
-import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import background from '../../assets/fondo2.jpg';
 
@@ -12,7 +11,7 @@ const Events = ({ navigation }) => {
   const eventDetails = (event) => {
     navigation.navigate('EventDetails', { event });
   };
-
+//Página de consulta de eventos y navegación entre eventos
   return (
     <SafeAreaView style={styles.container}>
        <ImageBackground source={background} resizeMode="stretch" >

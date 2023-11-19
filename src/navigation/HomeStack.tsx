@@ -7,7 +7,7 @@ import ShowEvents from "./ShowEventsStack";
 const Stack=createNativeStackNavigator();
 
 export default function HomeStack(props:any){
-
+//Página principal de Navegación
     return(
         <Stack.Navigator screenOptions={{headerShown: false}}>
             <Stack.Screen name="Home" component={Home} options={{title:'Home'}}/>

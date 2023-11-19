@@ -7,6 +7,7 @@ import TabNavigation from './TabNavigation';
 const Drawer = createDrawerNavigator();
 export default function Navigation(props: any) {
   return (
+    // Drawer para navegar y mostrar menú lateral
     <Drawer.Navigator drawerContent={DrawerContent}>
       <Drawer.Screen
         name="TabNavigation"

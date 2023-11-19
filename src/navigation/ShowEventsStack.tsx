@@ -1,27 +1,14 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
   useColorScheme,
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-//Nagigator Container
-import {NavigationContainer} from '@react-navigation/native';
+import {Colors,} from 'react-native/Libraries/NewAppScreen';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import TituloLogo from '../components/TituloLogo';
 import Events from '../screens/Events';
 import EventDetails from '../screens/EventDetails';
 
@@ -90,9 +77,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '400',
   },
-  highlight: {
-    fontWeight: '700',
-  },
+
 });
 
 export default ShowEvents;

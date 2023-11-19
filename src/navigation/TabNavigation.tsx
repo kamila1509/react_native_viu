@@ -1,14 +1,9 @@
 import React from 'react';
-import { StyleSheet} from 'react-native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import HomeStack from './HomeStack';
 import AboutStack from './AboutStack';
-
-import {Icon, IconButton} from 'react-native-paper';
-// const Stack=createNativeStackNavigator();
+import { IconButton} from 'react-native-paper';
 const Tab = createBottomTabNavigator();
-
 export default function TabNavigation(props: any) {
   const buttonHome = ({focused}: {focused: boolean}) => (
     <IconButton
@@ -31,6 +26,7 @@ export default function TabNavigation(props: any) {
   };
 
   return (
+    //Tab.Navigator (BottomTabNavigator) usado para navegar con los iconos de la barre inferior
     <Tab.Navigator>
       <Tab.Screen
         name="Home"
@@ -55,21 +51,4 @@ export default function TabNavigation(props: any) {
     </Tab.Navigator>
   );
 }
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 0,
-    flexDirection: 'row',
-  },
-  imagen: {
-    width: 50,
-    height: 50,
-  },
-  fuente: {
-    flex: 1,
-    marginStart: 10,
-    alignSelf: 'center',
-    color: '#000',
-    fontSize: 24,
-  },
-});
+

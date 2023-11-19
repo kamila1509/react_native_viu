@@ -9,6 +9,8 @@ export default function DrawerContent(props:any){
         setActive(screen)
         navigation.navigate(stack,{screen:screen})
     }
+    //DrawerContentScrollView Navegador lateral con ScroolView aunque no es necesario por la cantidad de items, pero 
+    //resulta intereante cuando el móvil rota utilizarlo por defecto
     return(
         <DrawerContentScrollView>
             <Drawer.Section>
