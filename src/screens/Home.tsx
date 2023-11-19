@@ -16,6 +16,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 export default function Home(props: any) {
   const {navigation} = props;
+  const gradientColor=['#D4440B', '#E9C3B4']
   const [modalVisible, setModalVisible] = useState(false);
   const fBotonModal = () => {
     setModalVisible(!modalVisible);
@@ -27,7 +28,7 @@ export default function Home(props: any) {
           <TouchableOpacity
             onPress={() => navigation.navigate('ShowEventsStack')}>
             <LinearGradient
-              colors={['#D4440B', '#E9C3B4']}
+              colors={gradientColor}
               style={styles.buttonText}>
               <Text style={styles.buttonTextColor}>EVENTOS</Text>
             </LinearGradient>
@@ -36,7 +37,7 @@ export default function Home(props: any) {
         <View style={styles.linearGradient}>
           <TouchableOpacity onPress={fBotonModal}>
             <LinearGradient
-              colors={['#D4440B', '#E9C3B4']}
+              colors={gradientColor}
               style={styles.buttonText}>
               <Text style={styles.buttonTextColor}>FORMULARIO</Text>
             </LinearGradient>
@@ -44,9 +45,9 @@ export default function Home(props: any) {
         </View>
         <View style={styles.linearGradient}>
           <TouchableOpacity
-            onPress={() => navigation.navigate('TabNavigation', 'AboutStack')}>
+            onPress={() => navigation.navigate( 'AboutStack')}>
             <LinearGradient
-              colors={['#D4440B', '#E9C3B4']}
+              colors={gradientColor}
               style={styles.buttonText}>
               <Text style={styles.buttonTextColor}>INFO</Text>
             </LinearGradient>
