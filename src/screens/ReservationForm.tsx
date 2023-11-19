@@ -101,7 +101,7 @@ const ReservationForm = ({ modalVisible, setModalVisible }) => {
                   onConfirm={handleDateConfirm}
                   onCancel={hideDatePicker}
                 />
-                <Text style={styles.label}>{selectedDate}</Text>
+                <Text style={styles.label}>Fecha Seleccionada: {selectedDate}</Text>
               </View>
               <Text style={styles.label}>Descripción:</Text>
               <TextInput
@@ -135,6 +135,7 @@ const styles = StyleSheet.create({
     width: null,
     height: null,
     resizeMode: 'cover',
+    padding: 15
   },
   label: {
     color: '#0E0E0E',
