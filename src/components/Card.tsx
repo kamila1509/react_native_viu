@@ -30,6 +30,10 @@ const styles = StyleSheet.create({
   },
   cardContent: {
     position: 'absolute',
+    backgroundColor:'#706E6E',
+    opacity:0.8,
+    borderRadius: 10,
+    paddingHorizontal:5,
     bottom: 20,
     left: 20,
   },
